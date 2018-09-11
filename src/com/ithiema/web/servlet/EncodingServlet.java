@@ -13,6 +13,8 @@ public class EncodingServlet extends HttpServlet {
 		
 		String parameter = request.getParameter("username");//中文
 		
+		int i=0;
+		
 		System.out.println(parameter);
 		
 	}
